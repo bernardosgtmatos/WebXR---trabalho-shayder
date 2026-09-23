@@ -1,0 +1,7 @@
+int cmds
+
+npm.cmd install express cors dotenv
+
+npm.cmd install sequelize sqlite3
+
+npm install --save-dev nodemon
