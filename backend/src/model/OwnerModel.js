@@ -14,4 +14,4 @@ const Owner = sequelize.define('Owner', {
             isEmail: true
         }
     }
-})asdasd
+})
