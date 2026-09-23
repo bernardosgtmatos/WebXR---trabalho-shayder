@@ -12,12 +12,12 @@ app.use(cors());
 app.use(express.json());
 
 //import routes 
-
+const OwenerRoute = require('./src/routes/OwenerRoute.js')
 
 
 
 //app use routes
-app.use('/admin', adminRoutes);
+app.use('/admin', OwenerRoute.OwnerRoute);
 
 //start server
 app.listen(PORT, () => {
